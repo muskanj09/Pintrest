@@ -573,6 +573,8 @@ footer {
     list-style: none;
     gap: 10px;
     font-size: 16px;
+    flex-wrap: wrap;
+    overflow: hidden;
 }
 
 .footerlist li a {
