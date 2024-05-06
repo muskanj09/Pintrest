@@ -1,0 +1,619 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #fff;
+    color: #484848;
+    font-weight: 300;
+    font-size: 20px;
+    font-family: 'lato', 'arial', 'sans-serif';
+    text-rendering: optimizeLegibility;
+}
+
+.row {
+    max-width: 1250px;
+    margin: 0 auto;
+}
+.navv {
+    width: 100%;
+    margin: auto;
+    position: fixed;
+    top: 0;
+    background-color: #fff;
+    z-index: 999;
+}
+
+nav {
+    padding: 0 20px;
+    font-size: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+
+.navflex {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 20px;
+}
+
+.navlist {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+.navlist li a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.navlist li a:hover {
+    background-color: rgb(216, 216, 216);
+    border-radius: 10px;
+}
+
+.navlogo {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.navicon {
+    font-size: 3em;
+    padding: 10px;
+    color: red;
+}
+
+.navlogo h3 a {
+    color: red;
+    text-decoration: none;
+}
+
+.navflex2 {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+.navcontact {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.navcontact li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.navcontact li a:hover {
+    border-bottom: 2px solid black;
+}
+
+.navbtn {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.nav-button {
+    padding: 10px 15px;
+    border-radius: 44px;
+}
+
+.navbtn div:nth-child(1) {
+    background-color: red;
+    color: white;
+}
+
+.navbtn div:nth-child(1) a {
+    color: white;
+}
+
+.navbtn div:nth-child(2) {
+    background-color: rgb(194, 189, 189);
+    color: white;
+}
+
+.nav-button a {
+    text-decoration: none;
+    color: rgb(76, 76, 76);
+}
+
+header {
+    text-align: center;
+    padding-top: 44px;
+}
+
+header h1:nth-child(1) {
+    font-size: 2.8em;
+    color: black;
+    letter-spacing: 1px;
+}
+
+.headerflex {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    flex-wrap: wrap;
+    padding-top: 74px;
+    overflow-x: hidden;
+    padding-inline: 12px;
+}
+
+.headerflex img {
+    width: 16%;
+    border-radius: 24px 24px 0 0;
+}
+
+.header1 {
+    transform: scale(1.2);
+    transform-origin: bottom;
+}
+
+.header2 {
+    transform: scale(1.1);
+    transform-origin: bottom;
+}
+
+.header3 {
+    transform: scale(1);
+    transform-origin: bottom;
+
+}
+
+.header4 {
+    transform: scale(1.1);
+    transform-origin: bottom;
+
+}
+
+.header5 {
+    transform: scale(1.2);
+    transform-origin: bottom;
+
+}
+
+header h1:nth-child(2) {
+    font-size: 2.8em;
+    color: rgb(105, 105, 5);
+}
+
+.section-idea {
+    background-color: rgb(248, 248, 166);
+    overflow: hidden;
+}
+
+.section-idea .row {
+    flex-wrap: wrap-reverse;
+    display: flex;
+
+}
+
+.main-post {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 400px;
+    padding: 0;
+    position: relative;
+    padding-top: 44px;
+}
+
+.main-post img {
+    width: 100%;
+}
+
+.iconbg {
+    font-size: 30px;
+    padding-right: 5px;
+    vertical-align: middle;
+    color: black;
+}
+
+.ideabtn a {
+    text-decoration: none;
+    background-color: white;
+    padding: 30px 40px;
+    border-radius: 44px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+    color: rgb(159, 5, 3);
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.ideaflex {
+    flex: 1 400px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    color: rgb(168, 7, 7);
+    width: 100%;
+    gap: 20px;
+    padding: 20px 30px;
+    justify-content: center;
+}
+
+.ideaflex h1 {
+    font-size: 3em;
+}
+
+.ideaflex p {
+    font-weight: 200;
+    font-size: 120%;
+    padding-bottom: 15px;
+}
+
+.btn-red a {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    background-color: rgb(208, 26, 26);
+    border-radius: 44px;
+}
+
+.btn-red a:hover {
+    background-color: rgb(159, 5, 3);
+}
+
+.section-save {
+    background-color: rgb(184, 239, 238);
+    padding: 20px;
+    color: rgb(6, 99, 56);
+}
+
+.save-flex {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    gap: 70px;
+}
+
+.save-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.save-content h1 {
+    font-size: 3em;
+}
+
+.save-content p {
+    font-weight: 200;
+    font-size: 120%;
+    padding-bottom: 35px;
+    /* padding: 0 100px 100px 15px; */
+}
+
+.save-image {
+    display: flex;
+    gap: 50px;
+}
+
+.image-flex1 {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    align-items: end;
+}
+
+.img1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/save1.jpg);
+    height: 450px;
+    width: 400px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 44px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img1 h1 {
+    color: white;
+    /* margin-top: 180px; */
+    text-align: center;
+    font-size: 3.2em;
+}
+
+.saveimg {
+    display: flex;
+    gap: 15px;
+    justify-content: space-evenly;
+    position: absolute;
+    bottom: 10px;
+    right: 260px;
+    width: 120px;
+}
+
+.save6 {
+    width: 250px;
+    height: 150px;
+
+}
+
+.img2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/save2.jpg);
+    height: 300px;
+    width: 300px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 44px;
+    position: relative;
+}
+
+.img2 h2,
+.img4 h3,
+.img3 h2,
+.img5 h2 {
+    color: white;
+    padding: 30px 10px;
+    position: absolute;
+    bottom: 5px;
+}
+
+.image-flex2 {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.img3 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/save3.jpg);
+    height: 280px;
+    width: 280px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 44px;
+    position: relative;
+}
+
+.img4 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/save4.jpg);
+    height: 200px;
+    width: 200px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 44px;
+    position: relative;
+}
+
+.img5 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/save5.jpg);
+    height: 250px;
+    width: 250px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 44px;
+    position: relative;
+}
+
+.tryitflex {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(244, 196, 204);
+    flex-wrap: wrap;
+}
+
+.tryimg {
+    flex: 1 400px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.tryimg img {
+    width: 100%;
+}
+
+.tryit1 {
+    flex: 1 300px;
+    position: absolute;
+    top: 180px;
+    left: 100px;
+    border-radius: 44px;
+}
+
+.tryit2 {
+    display: flex;
+    align-items: flex-end;
+    color: white;
+    position: absolute;
+    top: 520px;
+    left: 60px;
+}
+
+.trybg {
+    flex: 1 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: rgb(159, 5, 3);
+    padding-inline: 24px;
+    padding-block: 16px;
+}
+
+.trybg h1 {
+    width: 100%;
+    font-size: 3em;
+}
+
+.trybg p {
+    width: 100%;
+    padding-bottom: 40px;
+    font-size: 24px;
+}
+
+.section-signup {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/signup.webp);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.signup-flex {
+    flex: 1 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.signup-con {
+    flex: 1 600px;
+    display: flex;
+    justify-content: center;
+}
+
+.signup-con h1 {
+    color: white;
+    width: 100%;
+    font-size: 3em;
+    padding-inline: 16px;
+    text-align: center;
+}
+
+.card {
+    background-color: white;
+    color: rgb(98, 96, 96);
+    padding: 30px 120px;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.signuplogo {
+    font-size: 34px;
+    color: rgb(159, 5, 3);
+}
+
+.card h2 {
+    color: black;
+    padding-block: 5px;
+}
+
+div label {
+    font-size: 0.7em;
+}
+
+
+.signupform {
+    padding: 30px 20px;
+    text-align: left;
+}
+
+input[type=email],
+input[type=password],
+input[type=date],
+input[type=submit] {
+    width: 100%;
+    margin-block: 10px;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid rgb(98, 96, 96);
+}
+
+input[type=submit] {
+    background-color: rgb(159, 5, 3);
+    color: white;
+
+}
+
+.card p {
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+.card p a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.card p a:hover {
+    border-bottom: 2px solid black;
+}
+
+footer {
+    padding: 5px;
+}
+
+.footerlist {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 10px;
+    font-size: 16px;
+}
+
+.footerlist li a {
+    text-decoration: none;
+    color: rgb(76, 76, 76);
+}
+
+.footerlist li a:hover {
+    border-bottom: 1px solid rgb(76, 76, 76);
+}
+
+.js--animate-1 {
+    opacity: 0;
+    animation-duration: 1s;
+}
+
+.js--animate-2 {
+    opacity: 0;
+    animation-duration: 500000s;
+}
+
+.js--animate-1.animated,
+.js--animate-2.animated {
+    opacity: 1;
+}
+
+.card p {
+    padding: 10px 45px;
+}
+
+
+@media screen and (max-width : 950px) {
+
+    .navlist,
+    .navcontact {
+        display: none;
+    }
+}
+
+@media screen and (max-width : 768px) {
+    /* .navlist, .navcontact {
+        display: none;
+    } */
+}
