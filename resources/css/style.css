@@ -480,6 +480,8 @@ header h1:nth-child(2) {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
+    overflow: hidden;
 }
 
 .signup-flex {
@@ -487,6 +489,8 @@ header h1:nth-child(2) {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
+    overflow: hidden;
 }
 .signup-con {
     flex: 1 600px;
