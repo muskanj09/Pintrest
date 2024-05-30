@@ -1,12 +1,34 @@
-$(document).ready(function(){
-    $('.js--animate-1').waypoint(function(direction){
-        $('.js--animate-1').addClass('animated animate__backInDown')
-    },{
-        offset:'25%'
-    })
-    $('.js--animate-2').waypoint(function(direction){
-        $('.js--animate-2').addClass('animated animate__backInUp')
-    },{
-        offset:'35%'
-    })
+var tl = gsap.timeline()
+tl.from(".headerflex img",{
+    y:500,
+    duration:2,
+    stagger:1,
+    delay:2,
+    repeat:-1,
+    yoyo:true
 })
+// tl.from(".header1",{
+//     opacity:0,
+//     y:500,
+//     duration:3,
+//     delay:2,
+//     // repeat:-1,
+//     // yoyo:true
+// })
+// tl.from(".header2",{
+//     y:500,
+//     duration:3,
+// })
+// tl.from(".header3",{
+//     y:500,
+//     duration:3,
+// })
+// tl.from(".header4",{
+//     y:500,
+//     duration:3,
+// })
+// tl.from(".header5",{
+//     y:500,
+//     duration:3,
+// }
+// )
